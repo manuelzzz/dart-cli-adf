@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Rodrigo Rahman",
+      "email": "rodrigorahman@academiadoflutter.com.br",
+      "password": "123"
+    },
+    {
+      "id": 1,
+      "name": "Guilherme",
+      "email": "guilherme@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    { "id": 0, "name": "Academia do flutter" },
+    { "id": 1, "name": "Jornada Dart" },
+    { "id": 2, "name": "Jornada GetX" },
+    { "id": 3, "name": "Jornada Clean Code" },
+    { "id": 4, "name": "Jornada Arquitetura" }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "First example",
+      "courses": [
+        { "id": 0, "name": "Academia do flutter", "isStudent": true },
+        { "id": 1, "name": "Jornada Dart", "isStudent": true },
+        { "id": 2, "name": "Jornada GetX", "isStudent": true }
+      ],
+      "endereco": {
+        "street": "Rua z",
+        "number": 20,
+        "zipCode": "00010010101",
+        "city": { "id": 2, "name": "Natal" },
+        "phone": { "ddd": 84, "phone": "922222222" }
+      },
+      "age": 20
+    }
+  ]
+}
