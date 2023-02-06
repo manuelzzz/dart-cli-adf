@@ -1,8 +1,9 @@
 import 'package:args/command_runner.dart';
-import '../../../repositories/student_repository.dart';
+import '../../../repositories/student_dio_repository.dart';
+// import '../../../repositories/student_repository.dart';
 
 class FindByIdCommand extends Command {
-  final StudentRepository studentRepository;
+  final StudentDioRepository studentRepository;
 
   @override
   String get description => 'Find a student by id';
