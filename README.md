@@ -1,4 +1,4 @@
-Projeto de uma CLI (command line aplication) ultilizando as bibliotecas "args", "https" e "jsonRestServer".
+Projeto de uma CLI (command line aplication) ultilizando as bibliotecas "args", "https", "dio", "jsonRestServer".
 Na pasta `\bin` voce pode executar todos os comandos necessários para administrar o `\backend\database.json`.
 O sistema apresenta as seguintes requisições http: get, post, put e delete. Fazendo além do "print" dos dados, a inserção dos dados, a deleção e a atualização destes dados.
 

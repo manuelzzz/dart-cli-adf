@@ -23,8 +23,16 @@
                 "students",
                 "byId",
                 "-i",
-                "1"
+                "${input:id_student}"
             ]
         },
+    ],
+    "inputs": [
+        {
+            "id": "id_student",
+            "description": "Informe o Id do aluno",
+            "default": "",
+            "type": "promptString"
+        }
     ]
 }

@@ -24,19 +24,20 @@
     {
       "id": 1,
       "name": "First example",
+      "age": 20,
+      "nameCourses": ["Academia Flutter", "Jornada GetX", "Jornada Clean Code"],
       "courses": [
         { "id": 0, "name": "Academia do flutter", "isStudent": true },
         { "id": 1, "name": "Jornada Dart", "isStudent": true },
         { "id": 2, "name": "Jornada GetX", "isStudent": true }
       ],
-      "endereco": {
+      "address": {
         "street": "Rua z",
         "number": 20,
         "zipCode": "00010010101",
         "city": { "id": 2, "name": "Natal" },
         "phone": { "ddd": 84, "phone": "922222222" }
-      },
-      "age": 20
+      }
     }
   ]
 }
